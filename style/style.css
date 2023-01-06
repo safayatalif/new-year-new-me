@@ -1,0 +1,61 @@
+* {
+    font-family: 'Work Sans';
+    margin: 0px;
+}
+
+section {
+    margin-bottom: 130px;
+}
+
+/* thinks section style */
+.thinks-section {
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    width: 1500px;
+    height: 800px;
+}
+
+.thinks-title {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.thinks-description {
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 468px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    text-align: right;
+}
+
+.thinks-btn {
+    position: absolute;
+    left: 1210px;
+    top: 578px;
+    text-align: right;
+}
+
+.thinks-btn-main {
+    background: #FFFFFF;
+    border-radius: 5px;
+    width: 160px;
+    height: 64px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+
+}

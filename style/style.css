@@ -7,12 +7,12 @@ section {
     margin-bottom: 130px;
 }
 
-/* thinks section style */
+/* header section/thinks section style */
 .thinks-section {
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
-    width: 1500px;
-    height: 800px;
+    width: 1600px;
+    height: 809px;
 }
 
 .thinks-title {
@@ -58,4 +58,54 @@ section {
     font-size: 20px;
     color: #005FAC;
 
+}
+
+/* 2nd section/My failures style */
+.my-failures-section {
+    display: flex;
+
+}
+
+.failures-img {
+    position: absolute;
+    width: 569px;
+    height: 723.3px;
+    left: 206px;
+    top: 939px;
+
+}
+
+.failures-blog {
+    position: absolute;
+    width: 416px;
+    height: 400px;
+    left: 862px;
+    top: 1178px;
+
+}
+
+.failures-blog-title {
+    position: absolute;
+    width: 288px;
+    height: 94px;
+    left: 715px;
+    top: 1161px;
+}
+
+.failures-title {
+    line-height: 47px;
+    font-weight: 700;
+    font-size: 40px;
+    color: black;
+}
+
+.failure-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+}
+.failures-list{
+    margin-top: 16px;
 }

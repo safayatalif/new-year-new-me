@@ -2,11 +2,6 @@
     font-family: 'Work Sans';
     margin: 0px;
 }
-
-section {
-    margin-bottom: 130px;
-}
-
 /* header section/thinks section style */
 .thinks-section {
     background-image: url(../images/banner/banner3.png);
@@ -106,6 +101,169 @@ section {
     color: #444343;
     margin-top: 24px;
 }
-.failures-list{
+
+.failures-list {
     margin-top: 16px;
+}
+
+/* my plans section style */
+.my-plans {
+    position: absolute;
+    width: 179px;
+    height: 47px;
+    left: 711px;
+    top: 1792.3px;
+}
+
+.my-plans-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: black;
+}
+
+.my-plans-blog {
+    display: flex;
+    position: absolute;
+    width: 1141px;
+    height: 202.96px;
+    left: 230px;
+    top: 1889px;
+    gap: 100px;
+}
+
+.plans-blog-1,
+.plans-blog-2,
+.plans-blog-3,
+.plans-blog-4 {
+    text-align: center;
+}
+
+.img {
+    width: 93px;
+    height: 93px;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: center;
+}
+
+/* Awlays keep a positive mindset section style */
+.awlays-bg {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    border-radius: 8px;
+    position: absolute;
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2216.3px;
+}
+
+.awlays-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    padding: 60px 600px 24px 64px;
+
+}
+
+.awlays-btn {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin: 0px 900px 60px 64px;
+}
+
+/* extra section style */
+
+/* future section style*/
+.future-section {
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+    background-color: black;
+    display: flex;
+}
+
+.futere-blog {
+    padding: 130px 300px 130px 230px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.future-description {
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fdfbfb;
+}
+
+.future-description>p {
+    padding-top: 10px;
+}
+
+.future-icon {
+    margin-top: 80px;
+}
+
+.future-icon>img {
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.subsribe {
+    padding: 130px 220px 240px 0px;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#email {
+    padding: 20px 60px 20px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.subsribe-btn {
+    width: 170.11px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    background-color: #005FAC;
+    color: white;
 }
